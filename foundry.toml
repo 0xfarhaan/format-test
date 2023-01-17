@@ -10,12 +10,12 @@ verbosity      = 3
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
 [fmt]
-line_length                  = 120
+line_length                  = 140
 bracket_spacing              = true
 int_types                    = "long"
 multiline_func_header        = "params_first"
 quote_style                  = "double"
 number_underscore            = "preserve"
-single_line_statement_blocks = "single"
+single_line_statement_blocks = "preserve"
 tab_width                    = 4
 wrap_comments                = false
