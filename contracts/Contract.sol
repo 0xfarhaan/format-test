@@ -20,11 +20,7 @@ contract Contract {
         uint256 variable3,
         uint256 variable4,
         uint256 variable5
-    )
-        external
-        view
-        returns (uint256 variable6)
-    {
+    ) external view returns (uint256 variable6) {
         return 2;
     }
 }
