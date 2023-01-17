@@ -1,0 +1,11 @@
+[profile.default]
+contracts      = 'contracts'
+test           = 'tests'
+out            = 'out'
+libs           = ['modules']
+solc_version   = '0.8.7'
+optimizer      = false
+optimizer_runs = 200
+verbosity      = 3
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
